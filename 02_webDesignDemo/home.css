@@ -1,0 +1,20 @@
+*{margin: 0; padding: 0;}  
+.wrap {
+    background-image: url(images/home.jpg) ;
+    width: 1324px;
+    height: 605px;
+    margin: 20px;
+    background-size: cover;
+}
+.header{
+        width: 500px;
+		height: 500px;
+        text-align: center;
+        font-size: 15px;
+        background: none;
+        float: right;
+        margin-top: 20px;
+        margin-right: 5px;
+        padding-top: 80px ;		
+}
+

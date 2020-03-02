@@ -1,0 +1,276 @@
+/* CSS Default */
+*{margin: 0; padding: 0; outline: 0;}
+	body,html{width: 100%;}
+.full_content{width: 100%; }
+.content{width: 960px; margin: 0 auto;}
+	a{text-decoration: none;}
+	img{max-width: 100%;}
+.fix{overflow: hidden}
+.fleft{float: left;}
+.fright{float: right;}
+
+/*
+-------------------------------
+fixed_social
+-------------------------------
+*/
+.fixed_social {
+	position: fixed;
+	right: 16%;
+	top: 1%;
+	background: #ACE04A;
+	padding: 7px;
+	border-radius: 0px 0 25px 25px;
+}
+.fixed_social p{
+	float: right;
+}
+.fixed_social p a{
+
+}
+.fixed_social p a i {
+	font-size: 19px;
+	cursor: pointer;
+	background: #000;
+	width: 36px;
+	height: 21px;
+	margin: 3px;
+	padding: 4px;
+	text-align: center;
+	border-radius: 50px;
+	color: #fff;
+}
+.fa-facebook:hover{
+	background: #3b5999;
+}
+.fa-twitter:hover{
+	background: #55acee;
+}
+.fa-linkedin:hover{
+	background: #0077B5;
+}
+.fa-google-plus:hover{
+	background: #dd4b39;
+}
+.fa-yahoo:hover{
+	background: #410093;
+}
+/* 
+-------------------------------
+Start Header CSS
+-------------------------------
+*/
+
+.header{
+	border-top: 5px solid #ACE04A;
+	padding-bottom: 18px;
+	padding-left: 23px;
+	border-right: 2px solid #ACE04A;
+	border-left: 2px solid #ACE04A;
+	
+}
+.header_left{}
+.header_left h1{}
+.header_left p {
+	margin-top: 9px;
+}
+.header_right{
+	color: #ACE04A;
+	margin-right: 10px;
+	
+}
+/* 
+-------------------------------
+End Header CSS
+-------------------------------
+*/
+
+/* 
+-------------------------------
+Start Menu CSS
+-------------------------------
+*/
+.menu{
+	background:#ACE04A;
+}
+.menu nav ul{
+	list-style-type: none;
+	padding-top: 20px;
+	padding-bottom:45px;
+	padding-left:23px;
+}
+.menu nav ul li a{
+	float: left;
+	background: #ACE04A;
+	color: #fff;
+	margin-right: 20px;
+}
+.menu nav ul li a:hover{
+	color: #000;
+	cursor: pointer;
+}
+.menu input[type="text"]{
+	padding-left: 2px;
+	height: 25px;
+	
+}
+.menu input[type="button"]{
+	width: 65px;
+	height: 28px;
+	background: #fff;
+	color: #ACE04A;
+}
+/* 
+-------------------------------
+End Menu CSS
+-------------------------------
+*/
+/*
+-------------------------------
+ start slider css
+-------------------------------
+*/
+/*
+-------------------------------
+ start main_content1 css
+-------------------------------
+*/
+.main_content1 {
+	border-left: 2px solid #ACE04A;
+	border-right: 2px solid #ACE04A;
+}
+.main_contentb{}
+.main_content_left1{
+	width: 220px;
+	margin-left: 18px;
+	padding-top: 30px;
+}
+.main_content_left1 h3{
+	color:#ACE04A;
+	text-align: center;
+}
+.main_content_left1 img{
+	padding-left: 63px;
+}
+.main_content_left1 p{
+	text-align: center;
+	padding: 5px;
+}
+/*
+-------------------------------
+ start main_content2 css
+-------------------------------
+*/
+.main_content2{
+	border-left: 2px solid #ACE04A;
+	border-right: 2px solid #ACE04A;
+}
+.main_content2_left{
+	width:220px;
+	padding-top: 35px;
+	margin-left: 18px;
+}
+.main_content2_left img{
+	width:200px;
+	height:130px
+}
+.main_content2_left h3{
+	text-align: center;
+}
+.main_content2_left p{
+	text-align: left-side;
+}
+.view{
+	font:20px;
+	color: #ACE04A;
+	padding-bottom: 40px;
+}
+/*
+-------------------------------
+ start about section css
+-------------------------------
+*/
+.about_section{
+	border-left: 2px solid #ACE04A;
+	border-right: 2px solid #ACE04A;
+	background: #3B3B3B;
+}
+.about_section_left{
+	width: 220px;
+	margin-left: 18px;
+	
+}
+.about_section_left h4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #666666;
+}
+.about_section_left p{
+	text-align:left-side;
+	color:#999999;
+}
+.about_section_left p a{
+	color: #999999;
+}
+.read{
+	font: 15px;
+	color:#81B300;
+}
+.about_section_left input[type="text"]{
+	width:200px;
+	height: 25px;
+	padding-left:5px;
+	border-radius: 5px;
+	background: #1F1F1F;
+	color: #999999;
+	margin-top:10px;
+	margin-bottom:5px;
+	border: none;
+}
+.about_section_left input[type="email"]{
+	width:200px;
+	height: 25px;
+	padding-left:5px;
+	border-radius: 5px;
+	background: #1F1F1F;
+	color: #999999;
+	margin-bottom:5px;
+	border: none;
+}
+.about_section_left input[type="submit"]{
+    padding: 5px 10px;
+    background: #1F1F1F;
+    border-radius: 5px;
+    border: none;
+	cursor: pointer;
+	color: #81B300;
+}
+input[type="submit"]:hover{
+	background: #fff;
+	color: #000;
+}
+/*
+-------------------------------
+ start footer section css
+-------------------------------
+*/
+.footer_section{
+	border-left: 2px solid #ACE04A;
+	border-right: 2px solid #ACE04A;
+	background: #3B3B3B;
+}
+.footer_section_left{
+	padding-top: 50px;
+	padding-left:18px;
+	width:350px;
+	color:  #666666;
+}
+.footer_section_right{
+	width: 200px;
+	color:  #666666;
+	padding-right:5px;
+	
+}
+
+
+

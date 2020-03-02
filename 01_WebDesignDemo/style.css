@@ -1,0 +1,271 @@
+/* CSS Default */
+*{margin: 0; padding: 0; outline: 0;}
+	body,html{width: 100%;}
+.full_content{width: 100%;}
+.content{width: 960px; margin: 0 auto;}
+	a{text-decoration: none;}
+	img{max-width: 100%;}
+.fix{overflow: hidden}
+.fleft{float: left;}
+.fright{float: right;}
+
+.header{
+	background: #ACE04A;
+	padding: 10px;
+	height: 100px;
+}
+.headerb{}
+.header_left img{
+	width: 100px;
+	margin-right: 20px;
+}
+.header_middle{
+	margin-right: 20px;
+}
+.header_middle h2{
+	font-size: 35px;
+	color: #fff;
+}
+.header_middle p{
+	font-size: 22px;
+	color: #386E86;
+}
+.Header_right ul li{
+	font-size: 35px;
+	color: white;
+	cursor: pointer;
+	float: left;
+	Margin-left: 15px;
+	list-style-type: none;
+}
+/* 
+-------------------------------
+End Header CSS
+-------------------------------
+*/
+
+.menu{
+	background: green;
+	padding: 10px;
+}
+.menu nav ul{
+	list-style-type: none;
+}
+.menu nav ul li{
+	float: left;
+	margin-left: 15px;
+	background: #fff;
+	width: 100px;
+	padding: 8px;
+	text-align: center;
+	border-radius: 3px;
+}
+.menu nav ul li a{
+	font-size: 18px;
+	color: #000;
+}
+.menu nav ul li a:hover{
+	color: #fff;
+}
+.menu nav ul li:hover{
+	color: #fff;
+	background: #ACE04A;
+}
+/* End menu css */
+
+.nivoSlider img{
+	width:100%;
+	height: 350px;
+	
+}
+.content h1{
+	text-align: center;
+	background: #ACE04A;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+.main_content{}
+.left_content{
+	width: 686px;
+	border-bottom: 2px solid red;
+}
+.cont{
+	margin-top: 10px;
+}
+.cont img{
+	width: 250px;
+	float: left;
+	margin-right: 10px;
+}
+.cont h3{
+	text-transform: uppercase;
+	/*background:#E8E8FF;*/
+	background-image: linear-gradient(to right, #C0C0C0, #ffffff);
+	margin-left: 258px;
+
+}
+.cont p{
+	text-align: justify;
+	
+	
+}
+.Sidebar{
+	width: 300px;
+}
+.side_cont{
+	margin-top: 10px;
+}
+.side_cont h2{
+	background: rgb(0, 204, 0);
+	padding: 2px;
+	color: #fff;
+}
+
+.side_cont ul{
+	margin-top: 10px;
+	padding: 5px;
+	border-bottom: 2px solid #00e600;
+}
+.side_cont ul li{
+	list-style-type: none;
+	line-height: 30px;
+	border-bottom: 1px solid #00e600;
+}
+.side_cont ul li:last-child{
+	border-bottom: none;
+}
+.side_cont ul li a{
+	color: #ff0000;
+}
+.side_cont ul li a:hover{
+	color: #00e600;
+}
+.contact p{
+	margin: 10px;
+}
+input[type="text"]{
+	padding: 5px;
+	border-radius: 2px;
+    border: 1px solid #16de25;
+}
+input[type="submit"]{
+    margin-left: 70px;
+    padding: 8px 18px;
+    background: #0c0;
+    border-radius: 5px;
+    border: none;
+	cursor: pointer;
+	color: #fff;
+}
+input[type="submit"]:hover{
+	background: #10b310;
+}
+/*
+-------------------------------
+End Main COntent CSS
+-------------------------------
+*/
+
+/*
+-------------------------------
+Start About Section CSS
+-------------------------------
+*/
+.about_us{}
+.admin{
+	width: 300px;
+}
+.admin h2 {
+	/* text-transform: uppercase; */
+	font-family: Edwardian Script ITC;
+	font-size: 35px;
+	color: #c00dc6;
+	text-align: center;
+	margin-top: 15px;
+}
+.admin img {
+	width: 200px;
+	margin-left: 60px;
+	border: 1px solid #ae15d9;
+	margin-top: 4px;
+	border-radius: 5px;
+}
+.admin p {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	/* font-family: arial; */
+}
+.description {
+	width: 550px;
+	background: #485148;
+	padding: 20px 50px;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 60px;
+}
+.description h2 {
+	font-size: 35px;
+	margin-bottom: 11px;
+}
+.description ul{}
+.description ul li {
+	color: #05ff4f;
+	font-size: 16px;
+}
+.description ul li a{
+	font-family: arial;
+	color: #fff;
+	line-height: 26px;
+}
+/*
+-------------------------------
+End About Section CSS
+-------------------------------
+*/
+/*
+-------------------------------
+Start Footer Section CSS
+-------------------------------
+*/
+.footer{
+	background: #2452aa;
+	padding: 10px 30px;
+	margin-top: 10px;
+	border-radius: 5px;
+
+}
+.footer_left{}
+.footer_left p {
+	color: #fff;
+	font-family: arial;
+	margin-bottom: 20px;
+	margin-left: 28px;
+}
+.footer_left ul{}
+.footer_left ul li{
+	float: left;
+	list-style: none;
+	margin-left: 29px;
+	color: #fff;
+}
+.footer_left ul li:hover{
+	color: red;
+	cursor: pointer;
+}
+.Social_icon{}
+.Social_icon a{}
+.Social_icon a i {
+	font-size: 30px;
+	margin-left: 2px;
+	background: #00237B;
+	padding: 3px 8px;
+	border-radius: 3px;
+	cursor: pointer;
+	color: #fff;
+}
+.Social_icon a i:hover{
+	background: #fff;
+	color: #2452AA;
+}
